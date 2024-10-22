@@ -1,2 +1,2 @@
-# python_u
+# python
 Udemy 
