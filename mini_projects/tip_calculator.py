@@ -1,3 +1,6 @@
+# TIP CALCULATOR 🧮
+# Samantha S.
+
 # creating a restaurant tip calculator
 # creating the user input variables lines 4-6
 print("Welcome to the tip calculator!")
