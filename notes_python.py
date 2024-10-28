@@ -6,6 +6,7 @@ elif <condition 2 is true>
     <do B>
 else
     <do C>
+    
 # Nested if statements
 if <condition 1 is true>
     <do A>
@@ -13,6 +14,7 @@ if <condition 1 is true>
         <do B>
         if <condition 3 is true>
             <do C>
+            
 # Multiple if statements
 if <condition 1 is true>
     <do A>
@@ -21,6 +23,7 @@ if <condition 2 is true>
 if <condition 3 is true>
     <do C>
 """
+<<<<<<< HEAD
 
 #creating random choices
 """
@@ -48,3 +51,5 @@ veg = ["Cucumber", "Kale", "Spinnach"] #this is added to the fruits list when st
 dirty_dozen = [fruits, veg] 
 print(dirty_dozen)
 """
+=======
+>>>>>>> 97e2080b476549d817598a8ecb5dc8ffe1d0e112
