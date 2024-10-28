@@ -15,15 +15,15 @@ git log <branch1> --not <branch2>:	    Lists commits in <branch1> that aren’t 
 
 
 git init:	                            Initializes a new Git repository in your current folder.
-git clone <repository-url>:	            Creates a local copy of a remote repository (e.g., from GitHub) to work on it locally.
-git add <file-or-folder>:	            Stages changes for the next commit; use . to stage all changes in the folder.
-git commit -m "your message":	        Commits staged changes with a descriptive message, saving a snapshot of your work.
-git status: 	                        Shows the status of your changes, indicating which files are staged, unstaged, or untracked.
+git clone <repository-url>:	           Creates a local copy of a remote repository (e.g., from GitHub) to work on it locally.
+git add <file-or-folder>:	           Stages changes for the next commit; use . to stage all changes in the folder.
+git commit -m "your message":	       Commits staged changes with a descriptive message, saving a snapshot of your work.
+git status: 	                       Shows the status of your changes, indicating which files are staged, unstaged, or untracked.
 git pull:	                            Fetches and merges changes from the remote repository to your local branch.
 git fetch:	                            Retrieves changes from the remote but does not merge them, letting you review first.
-git merge <branch-name>:	            Merges <branch-name> into the current branch to combine changes.
+git merge <branch-name>:	           Merges <branch-name> into the current branch to combine changes.
 git log:	                            Displays the commit history for the current branch to track changes over time.
 git diff:	                            Shows the difference between your changes and the last commit, helpful for reviewing edits.
-git merge <branch-name>:	            Merges <branch-name> into the current branch to combine changes.
+git merge <branch-name>:	           Merges <branch-name> into the current branch to combine changes.
 git log:	                            Displays the commit history for the current branch to track changes over time.
 git diff:	                            Shows the difference between your changes and the last commit, helpful for reviewing edits.
