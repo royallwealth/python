@@ -21,7 +21,7 @@ discount = int(input("Which coupon would you like to apply? 5%, 10%, or 20%:\nCo
 
 # stored calculation discount % divided out of 100% times the price gives the discount amount
 # the final amount is the price - the discount
-# used the round function to round 2 decimal places instead of all those extra numbers after the decimal
+# used the round function to round 2 decimal places to remove of all those extra numbers after the decimal
 
 discount_amount = round(discount / 100 * price)
 final_amount = round(price - discount_amount, 2)
