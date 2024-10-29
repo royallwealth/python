@@ -22,6 +22,7 @@ for _ in range(nr_symbols):
 
 for _ in range(nr_numbers):
     password_chars.append(random.choice(numbers))
-                          
+
+random.shuffle(password_chars)                         
 new_password = ''.join(password_chars)
 print(f"Your New Password is: {new_password}")
