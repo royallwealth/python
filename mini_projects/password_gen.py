@@ -13,3 +13,15 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 #variables
 password_chars = []
+
+for _ in range(nr_letters):
+    password_chars.append(random.choice(letters))
+
+for _ in range(nr_symbols):
+    password_chars.append(random.choice(symbols))
+
+for _ in range(nr_numbers):
+    password_chars.append(random.choice(numbers))
+                          
+new_password = ''.join(password_chars)
+print(f"Your New Password is: {new_password}")
